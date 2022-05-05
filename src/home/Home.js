@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./Home.css"
 
-export default props => {
+const props = () => {
     return (
       <div style={{ display: "flex", flexWrap: "wrap",  justifyContent: 'space-between' }}>
 
@@ -81,3 +81,5 @@ export default props => {
      
     );
   };
+
+  export default props;

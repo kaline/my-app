@@ -8,7 +8,7 @@ import {
     faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 
-export default props => {
+const props = () => {
     return (
       <footer>
           <div class="social-container">
@@ -33,3 +33,5 @@ export default props => {
       </footer>
     );
   };
+
+  export default props;
